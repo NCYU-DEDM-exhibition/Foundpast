@@ -4,14 +4,16 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
     <meta name="description" content="遽變的二十一世紀，我們不甘被數據淹沒，不願被科技冷漠，藉由獨特的情境式教學與新奇的遊戲式體驗，引領你航行在數位的浪潮，讓獨新數縮短彼此之間的距離">
     <meta name="author" content="嘉義大學數位學習設計與管理系110級畢籌會">
     <meta property="og:image" content="https://dedm66019206.github.io/dedm110expo/img/banner.png" />
-    <title>（替換各組title）|嘉義大學數位系110級畢業展覽</title>
+    <title>尋失FoundPast|嘉義大學數位系110級畢業展覽</title>
     <link rel="icon" href="https://dedm66019206.github.io/dedm110expo/index/favicon.ico">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@1,700&amp;family=Noto+Sans+TC:wght@400;700&amp;display=swap">
     <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./rwd.css">
     <link rel="stylesheet" href="./css/yt-lazyload.min.css">
 </head>
 
@@ -43,9 +45,10 @@
         </div>
     </div>
     <div id="bg">
+
         <main role="main" class="main-content">
             <canvas id="noise" class="noise"></canvas>
-            <img src="./img/web_bg_new.jpg" class="imgg"> //圖片連結
+            <img src="./img/web_bg_new.jpg" class="imgg">
             <div id="box">
                 <canvas id="canvas"></canvas>
                 <script id="vertex-shader" type="x-shader/x-vertex">
@@ -175,13 +178,13 @@
             </script>
     </div>
     <div id="main_content">
-        <img src="img/logo_top.svg" alt="獨新數" id="main_logo">
+        <img src="./img/logo_top.svg" alt="獨新數" id="main_logo">
         <div id="info_all">
             <div id="info_content">
                 <div id="info_top">
-                    <div id="info_tag">#一二三四&emsp;#一二三四&emsp;#一二三四&emsp;#一二三四</div>
-                    <div id="info_title">標題標題標題</div>
-                    <div id="info_member"><br>組員名、組員名、組員名、組員名<br>指導教授：教授名</div>
+                    <div id="info_tag">#遊戲設計&emsp;#擴增實境&emsp;</div>
+                    <div id="info_title">尋失FoundPast</div>
+                    <div id="info_member"><br>組員：謝佳㚬、沈宜玲、李怡萱、張芷綺<br>指導教授：邱柏升</div>
                 </div>
                 <div class="info_section">
                     <div class="info_sub">霸凌背後的真相，究竟是什麼？</div>
@@ -190,18 +193,28 @@
                     </div>
                 </div>
                 <div class="info_section">
-                    <div class="info_sub">段落標題段落標題</div>
-                    <img src="/img/mock_up/FoundPast__01.jpg" alt="尋失FoundPast_VR密室逃脫解謎遊戲" class="info_img">
+                    <div class="info_sub">VR密室逃脫解謎遊戲</div>
+                    <img src="./img/mock_up/FoundPast__01.jpg" alt="尋失FoundPast_VR密室逃脫解謎遊戲" class="info_img">
                     <div class="info_word">
                         這是一款VR密室逃脫解謎遊戲，我們希望透過VR的沉浸式體驗特點，讓使用者模擬被霸凌的過程，經由親身經歷去了解被霸凌者的心靈創傷，甚至是肉體上的創傷，進而提升自我同理心，並了解霸凌所帶來的傷痛是不可逆的，藉此達到降低校園霸凌的狀況。
                     </div>
-                    <div class="yt-lazyload" data-id="QHd8C4AAFhw" data-thumb="" data-logo="3"></div>
+
                 </div>
                 <div class="info_section">
-                    <div class="info_sub">段落標題段落標題</div>
-                    <div class="yt-lazyload" data-id="QHd8C4AAFhw" data-thumb="" data-logo="3"></div>
+                    <div class="info_sub">前導動畫</div>
+                    <img src="./img/mock_up/FoundPast__02.jpg" alt="尋失FoundPast_前導動畫" class="info_img">
                     <div class="info_word">
-                        這是一款VR密室逃脫解謎遊戲，我們希望透過VR的沉浸式體驗特點，讓使用者模擬被霸凌的過程，經由親身經歷去了解被霸凌者的心靈創傷，甚至是肉體上的創傷，進而提升自我同理心，並了解霸凌所帶來的傷痛是不可逆的，藉此達到降低校園霸凌的狀況。
+                        我們將藉由前導動畫讓觀眾先了解整個故事的背景，並帶出主角偷竊錢包的事件，幫助玩家能夠更進入遊戲情景，再讓玩家進入遊戲找出整個事件的真相。
+                    </div>
+                    <div class="yt-lazyload" data-id="QHd8C4AAFhw" data-thumb="FoundPast_thumbnail_1" data-logo="3">
+                    </div>
+                </div>
+                <div class="info_section">
+                    <div class="info_sub">遊戲畫面實景</div>
+                    <div class="info_word">
+                        觀看完前導動畫後，便正式進入霸凌教育體驗。體驗者必須觸發房間內的各項機關，以拼湊出在霸凌背後的完整真相，並且才能獲得離開房間的關鍵物品。因考量VR設備尚未普及，多數體驗者可能對VR的操作不熟悉，而特別設計與簡化遊戲操作，希望能夠讓每個人都好上手。也藉著抽絲剝繭出真相的過程，重新思考如何才能真正反霸凌、成功防治霸凌的發生。
+                    </div>
+                    <div class="yt-lazyload" data-id="QHd8C4AAFhw" data-thumb="FoundPast_thumbnail_2" data-logo="3">
                     </div>
                 </div>
             </div>
@@ -210,51 +223,52 @@
                     PREV<div class="btn_arrow ba1"></div></a>
                 <div id="member_content">
                     <div class="member_info">
-                        <img src="img/member/FoundPast_member_4.jpg" alt="" class="member_img">
+                        <img src="./img/member/FoundPast_member_1.jpg" alt="謝佳㚬" class="member_img">
                         <div class="member_name">
-                            <div class="member_work">分工內容</div>
-                            <div class="member_n">創作者
-                                <a href="https://ncyu-dedm-exhibition.github.io/top/">
+                            <div class="member_work">程式設計</div>
+                            <div class="member_n">謝佳㚬
+                                <a href="mailto:cheryl.xie912@gmail.com?subject=作品介紹&body=內容">
                                     <img src="img/icon/icon_gmail.svg" alt="" class="member_link">
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="member_info">
-                        <img src="img/member/FoundPast_member_4.jpg" alt="" class="member_img">
+                        <img src="./img/member/FoundPast_member_2.jpg" alt="沈宜玲" class="member_img">
                         <div class="member_name">
-                            <div class="member_work">分工內容</div>
-                            <div class="member_n">創作者
-                            </div>
-                        </div>
-                    </div>
-                    <div class="member_info">
-                        <img src="img/member/FoundPast_member_4.jpg" alt="" class="member_img">
-                        <div class="member_name">
-                            <div class="member_work">分工內容</div>
-                            <div class="member_n">創作者
-                                <a href="https://ncyu-dedm-exhibition.github.io/top/">
+                            <div class="member_work">程式設計</div>
+                            <div class="member_n">沈宜玲
+                                <a href="mailto:emily1010xx@gmail.com">
                                     <img src="img/icon/icon_gmail.svg" alt="" class="member_link">
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="member_info">
-                        <img src="img/member/FoundPast_member_4.jpg" alt="" class="member_img">
+                        <img src="./img/member/FoundPast_member_3.jpg" alt="李怡萱" class="member_img">
                         <div class="member_name">
-                            <div class="member_work">分工內容</div>
-                            <div class="member_n">創作者
-                                <a href="https://ncyu-dedm-exhibition.github.io/top/">
+                            <div class="member_work">美術設計</div>
+                            <div class="member_n">李怡萱
+                                <a href="mailto:abby2007a@gmail.com?subject=作品介紹&body=內容">
                                     <img src="img/icon/icon_gmail.svg" alt="" class="member_link">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member_info">
+                        <img src="./img/member/FoundPast_member_4.jpg" alt="張芷綺" class="member_img">
+                        <div class="member_name">
+                            <div class="member_work">美術設計</div>
+                            <div class="member_n">張芷綺
+                                <a href="https://www.instagram.com/chichi__0909" target="_blank">
+                                    <img src="./img/icon/icon_ins.svg" alt="" class="member_link">
                                 </a>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div id="site_content">
-                    <a href="https://ncyu-dedm-exhibition.github.io/top/" class="site_link">網站連結</a>
-                    <a href="https://ncyu-dedm-exhibition.github.io/top/" class="site_link">網站連結</a>
-                    <a href="https://ncyu-dedm-exhibition.github.io/top/" class="site_link">網站連結</a>
+                    <a href="https://www.youtube.com/channel/UC92WIQ7Hx_ccr30-6egHEEw" class="site_link">Youtube頻道</a>
                 </div>
                 <a href="https://ncyu-dedm-exhibition.github.io/top/" class="info_btn bt2">
                     NEXT<div class="btn_arrow ba2"></div></a>
@@ -265,32 +279,32 @@
         </div>
     </div>
     <div id="btn_bar">
-        <a href="#main_logo" class="side_btn">
+        <a href="#" id="gotop" class="side_btn">
             <img src="./img/icon/icon_triangle.svg" alt="" class="btn_img">TOP
         </a>
-        <a href="https://ncyu-dedm-exhibition.github.io/top/" target="_blank" class="side_btn">
+        <a href="https://ncyu-dedm-exhibition.github.io/top/" target="_blank" class="side_btn" id="gohome">
             <img src="./img/icon/icon_home.svg" alt="" class="btn_img">HOME
         </a>
     </div>
     <div id="side_bar">
-        <img src="img/pink_bg.png" alt="" id="side_bg">
+        <img src="./img/pink_bg.png" alt="" id="side_bg">
     </div>
     <div id="top_bar">
         <div id="bar_bg"></div>
         <div id="bar_content">
             <div id="sns_bar">
                 <a href="http://www.ncyu.edu.tw/etech/" class="icon_link" target="_blank">
-                    <img src="img/icon/icon_web.svg" alt="嘉義大學_數位學習設計與管理學系_官方網站" class="icon ic1">
+                    <img src="./img/icon/icon_web.svg" alt="嘉義大學_數位學習設計與管理學系_官方網站" class="icon ic1">
                 </a>
                 <a href="https://www.facebook.com/NCYU.DEDM.GraduationExhibition" class="icon_link" target="_blank">
-                    <img src="img/icon/icon_fb.svg" alt="獨新數_facebook_臉書粉絲專頁" class="icon ic2">
+                    <img src="./img/icon/icon_fb.svg" alt="獨新數_facebook_臉書粉絲專頁" class="icon ic2">
                 </a>
                 <a href="https://www.instagram.com/dedm_expo/" class="icon_link" target="_blank">
-                    <img src="img/icon/icon_ins.svg" alt="獨新數_instagram" class="icon ic3">
+                    <img src="./img/icon/icon_ins.svg" alt="獨新數_instagram" class="icon ic3">
                 </a>
                 <a href="https://www.youtube.com/channel/UCNgKsJgIqhodWn0rhgdYPIw/featured" class="icon_link"
                     target="_blank">
-                    <img src="img/icon/icon_yt.svg" alt="獨新數_youtube_官方頻道" class="icon ic4">
+                    <img src="./img/icon/icon_yt.svg" alt="獨新數_youtube_官方頻道" class="icon ic4">
                 </a>
             </div>
             <input id="toggle" type="checkbox">
@@ -298,81 +312,87 @@
                 <div id="menu_link_content">
                     <div class="link_row">
                         <a href="https://ncyu-dedm-exhibition.github.io/top/" class="menu_link">
-                            <span class="link_triangle">▶</span>標題標題標題<br><span class="link_sub">十五字文案十五字文案十五字文案</span>
+                            <span class="link_triangle">▶</span>Foresea<br><span
+                                class="link_sub">預見海洋最糟的情況，你會怎麼做？</span>
                             <div class="link_line"></div>
                         </a>
                         <a href="https://ncyu-dedm-exhibition.github.io/top/" class="menu_link">
-                            <span class="link_triangle">▶</span>標題標題標題<br><span class="link_sub">十五字文案十五字文案十五字文案</span>
+                            <span class="link_triangle">▶</span>Rebirth<br><span class="link_sub">審判與混沌，見證法老重生之途</span>
                             <div class="link_line"></div>
                         </a>
                         <a href="https://ncyu-dedm-exhibition.github.io/top/" class="menu_link">
-                            <span class="link_triangle">▶</span>標題標題標題<br><span class="link_sub">十五字文案十五字文案十五字文案</span>
+                            <span class="link_triangle">▶</span>味補鮮知<br><span class="link_sub">產地到餐桌，值得收藏的海鮮知識庫</span>
                             <div class="link_line"></div>
                         </a>
+
                     </div>
                     <div class="link_row">
                         <a href="https://ncyu-dedm-exhibition.github.io/top/" class="menu_link">
-                            <span class="link_triangle">▶</span>標題標題標題<br><span class="link_sub">十五字文案十五字文案十五字文案</span>
+                            <span class="link_triangle">▶</span>呼犧<br><span class="link_sub">呼吸停止前，找到生存的方法吧！</span>
                             <div class="link_line"></div>
                         </a>
                         <a href="https://ncyu-dedm-exhibition.github.io/top/" class="menu_link">
-                            <span class="link_triangle">▶</span>標題標題標題<br><span class="link_sub">十五字文案十五字文案十五字文案</span>
+                            <span class="link_triangle">▶</span>南來旗跑<br><span class="link_sub">人生想要精彩 旗跑就要現在</span>
                             <div class="link_line"></div>
                         </a>
                         <a href="https://ncyu-dedm-exhibition.github.io/top/" class="menu_link">
-                            <span class="link_triangle">▶</span>標題標題標題<br><span class="link_sub">十五字文案十五字文案十五字文案</span>
+                            <span class="link_triangle">▶</span>星伙聊原<br><span class="link_sub">星象之形必有因，破謠解惑為君醒</span>
                             <div class="link_line"></div>
                         </a>
+
                     </div>
                     <div class="link_row">
                         <a href="https://ncyu-dedm-exhibition.github.io/top/" class="menu_link">
-                            <span class="link_triangle">▶</span>標題標題標題<br><span class="link_sub">十五字文案十五字文案十五字文案</span>
+                            <span class="link_triangle">▶</span>玻璃瓶裡的貓<br><span class="link_sub">把所有空曠，慢條斯理地盛裝</span>
                             <div class="link_line"></div>
                         </a>
                         <a href="https://ncyu-dedm-exhibition.github.io/top/" class="menu_link">
-                            <span class="link_triangle">▶</span>標題標題標題<br><span class="link_sub">十五字文案十五字文案十五字文案</span>
+                            <span class="link_triangle">▶</span>移碳救境<br><span class="link_sub">一探究竟，就近移碳</span>
                             <div class="link_line"></div>
                         </a>
                         <a href="https://ncyu-dedm-exhibition.github.io/top/" class="menu_link">
-                            <span class="link_triangle">▶</span>標題標題標題<br><span class="link_sub">十五字文案十五字文案十五字文案</span>
+                            <span class="link_triangle">▶</span>尋失FoundPast<br><span
+                                class="link_sub">霸凌背後的真相，究竟是什麼？</span>
                             <div class="link_line"></div>
                         </a>
+
                     </div>
                     <div class="link_row">
                         <a href="https://ncyu-dedm-exhibition.github.io/top/" class="menu_link">
-                            <span class="link_triangle">▶</span>標題標題標題<br><span class="link_sub">十五字文案十五字文案十五字文案</span>
+                            <span class="link_triangle">▶</span>蜂狂夜未眠<br><span class="link_sub">聽聞炮火至，遊人夜未眠</span>
                             <div class="link_line"></div>
                         </a>
                         <a href="https://ncyu-dedm-exhibition.github.io/top/" class="menu_link">
-                            <span class="link_triangle">▶</span>標題標題標題<br><span class="link_sub">十五字文案十五字文案十五字文案</span>
+                            <span class="link_triangle">▶</span>廟語喃喃<br><span class="link_sub">用擬人化的圖像，拉近與廟的距離</span>
                             <div class="link_line"></div>
                         </a>
                         <a href="https://ncyu-dedm-exhibition.github.io/top/" class="menu_link">
-                            <span class="link_triangle">▶</span>標題標題標題<br><span class="link_sub">十五字文案十五字文案十五字文案</span>
+                            <span class="link_triangle">▶</span>闖粵憑交道<br><span class="link_sub">粵級挑戰，等你挑戰！</span>
                             <div class="link_line"></div>
                         </a>
+
                     </div>
                 </div>
                 <div id="menu_sns_content">
                     <div id="sns_word">Follow us</div>
                     <div id="menu_sns">
                         <a href="http://www.ncyu.edu.tw/etech/" class="icon_link" target="_blank">
-                            <img src="img/icon/blue_web.svg" alt="嘉義大學_數位學習設計與管理學系_官方網站" class="m_icon mc1">
+                            <img src="./img/icon/blue_web.svg" alt="嘉義大學_數位學習設計與管理學系_官方網站" class="m_icon mc1">
                         </a>
                         <a href="https://www.facebook.com/NCYU.DEDM.GraduationExhibition" class="icon_link"
                             target="_blank">
-                            <img src="img/icon/blue_fb.svg" alt="獨新數_facebook_臉書粉絲專頁" class="m_icon mc2">
+                            <img src="./img/icon/blue_fb.svg" alt="獨新數_facebook_臉書粉絲專頁" class="m_icon mc2">
                         </a>
                         <a href="https://www.instagram.com/dedm_expo/" class="icon_link" target="_blank">
-                            <img src="img/icon/blue_ins.svg" alt="獨新數_instagram" class="m_icon mc3">
+                            <img src="./img/icon/blue_ins.svg" alt="獨新數_instagram" class="m_icon mc3">
                         </a>
                         <a href="https://www.youtube.com/channel/UCNgKsJgIqhodWn0rhgdYPIw/featured" class="icon_link"
                             target="_blank">
-                            <img src="img/icon/blue_yt.svg" alt="獨新數_youtube_官方頻道" class="m_icon mc4">
+                            <img src="./img/icon/blue_yt.svg" alt="獨新數_youtube_官方頻道" class="m_icon mc4">
                         </a>
                     </div>
                 </div>
-                <img src="/img/logo_top.svg" alt="" id="menu_logo">
+                <img src="./img/logo_top.svg" alt="" id="menu_logo">
                 <div id="menu_line"></div>
             </span>
             <div id="menu_bar">
@@ -395,9 +415,9 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
-    <script src="./fluid.js"></script> //流體js
-    <script src="./noise.js"></script> //躁點js 不用就把它註解掉
-    <script src="./js/yt-lazyload.min.js"></script>
+    <script src="./fluid.js"></script>
+    <script src="./noise.js"></script>
+    <script src="./js/yt-lazyload.js"></script>
     <script src="./script.js"></script>
 </body>
 

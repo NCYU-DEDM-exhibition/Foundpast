@@ -1,3 +1,7 @@
+$(window).on("load", function () {
+    $(".loading_wrapper").fadeOut("slow");
+});
+
 /*-----錨點-----*/
 $(function () {
     $('a[href*="#"]:not([href="#"])').click(function () {
@@ -22,29 +26,33 @@ $(function () {
 
 
 /*-----導覽列-----*/
+
 $(window).scroll(function () {
     if ($(this).scrollTop() > 500) {
-        $('#bar_bg').fadeIn();
+        $('#bar_bg').fadeIn(500);
+        $('#bar_bg').css('opacity', '1');
     } else {
         $('#bar_bg').fadeOut();
     }
 });
 
 /*-----按鈕列-----*/
+
 $(window).scroll(function () {
-    if ($(this).scrollTop() > 500) {
+    if ($(this).scrollTop() > 1200) {
         $('#btn_bar').fadeIn();
+        $('#btn_bar').css('opacity', '1');
     } else {
         $('#btn_bar').fadeOut();
     }
 });
 
-
-/*-----loading-----*/
-
-let spinnerWrapper = document.querySelector('.loading_wrapper');
-
-window.addEventListener('load', function () {
-    // spinnerWrapper.style.display = 'none';
-    spinnerWrapper.parentElement.removeChild(spinnerWrapper);
+$(function () {
+    /* 按下GoTop按鈕時的事件 */
+    $('#gotop').click(function () {
+        $('html,body').animate({
+            scrollTop: 0
+        }, 'slow'); /* 返回到最頂上 */
+        return false;
+    });
 });

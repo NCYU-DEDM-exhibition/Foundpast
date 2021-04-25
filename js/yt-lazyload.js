@@ -21,8 +21,8 @@
         template_iframe,
         
         settings_observer_rootMargin    = '200px 0px',                  //Intersection Observer API option - rootMargin (Y, X)
-        settings_thumb_base_url         = 'https://raw.githubusercontent.com/the-muda-organization/youtube-lazyload/master/demo-img/',     //Base URL where thumbnails are stored
-        settings_thumb_extension        = 'webp';                       //Thumbnail extension
+        settings_thumb_base_url         = '../img/thumbnail/',     //Base URL where thumbnails are stored
+        settings_thumb_extension        = 'jpg';                       //Thumbnail extension
         
     
     
@@ -85,7 +85,7 @@
                     this_wrap.append(this_content);
                     
                     //background-image
-                    this_content.style.setProperty('--yt-lazyload-img','url("' + settings_thumb_base_url + this_data_id + this_data_thumb + '.' + settings_thumb_extension + '")');
+                    this_content.style.setProperty('--yt-lazyload-img','url("' + settings_thumb_base_url + this_data_thumb + '.' + settings_thumb_extension + '")');
                     
                     //play btn
                     this_playbtn = template_playbtn.cloneNode();
