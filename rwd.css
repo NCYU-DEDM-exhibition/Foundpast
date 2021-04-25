@@ -71,11 +71,11 @@
     }
 
     #footer {
-        width: 120%;
+        width: 140%;
         height: 100px;
+        left:-10%;
         margin-top: 150px;
         margin-left: 0;
-        /* border:1px solid ; */
     }
 
     #copyright {
