@@ -106,6 +106,7 @@
     .menu_bg {
         width: 100vw;
         left: -140vw;
+        background-size: cover;
     }
 
     #menu_link_content {
@@ -225,6 +226,10 @@
 
     .icon {
         height: 50%;
+    }
+
+    .menu_bg {
+        background-size: cover;
     }
 
     #menu_link_content {
