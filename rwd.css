@@ -76,11 +76,11 @@
         left: -10%;
         margin-top: 150px;
         margin-left: 0;
-        border: 1px solid;
+        /*border: 1px solid; */
     }
 
     #copyright {
-        font-size: 0.2vh;
+        font-size: 10px;
         text-align: center;
     }
 
