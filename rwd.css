@@ -73,13 +73,14 @@
     #footer {
         width: 140%;
         height: 100px;
-        left:-10%;
+        left: -10%;
         margin-top: 150px;
         margin-left: 0;
+        border: 1px solid;
     }
 
     #copyright {
-        /*font-size: 0.25vw;*/
+        font-size: 0.2vh;
         text-align: center;
     }
 
