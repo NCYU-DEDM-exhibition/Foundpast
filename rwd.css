@@ -76,7 +76,7 @@
         left: -10%;
         margin-top: 150px;
         margin-left: 0;
-        /*border: 1px solid; */
+        /* border: 1px solid; */
     }
 
     #copyright {
@@ -116,6 +116,7 @@
     }
 
     .link_row {
+        flex:0.25;
         flex-direction: column;
     }
 
@@ -232,6 +233,7 @@
     }
 
     .link_row {
+        flex:0.25;
         flex-direction: column;
     }
 
@@ -347,7 +349,7 @@
     }
 
     #menu_line {
-        right:0;
+        right: 0;
     }
 }
 
@@ -405,11 +407,11 @@
         flex: 0.3;
     }
 
-    #menu_logo{
+    #menu_logo {
         height: 90px;
     }
 
-    #menu_line{
+    #menu_line {
         right: 20%;
     }
 }
