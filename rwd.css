@@ -111,19 +111,20 @@
 
     #menu_link_content {
         width: 40%;
+        height: 80%;
         left: 10%;
         top: 7.5%;
-        /* border: 1px solid; */
+        border: 1px solid;
     }
 
     .link_row {
-        flex:0.25;
+        flex: 0.25;
         flex-direction: column;
+        justify-content: space-around;
     }
 
     .menu_link {
         font-size: 20px;
-        margin-bottom: 20px;
     }
 
     .link_triangle {
@@ -170,7 +171,6 @@
 
     .menu_link {
         font-size: 16px;
-        margin-bottom: 15px;
     }
 
     #menu_logo {
@@ -234,16 +234,14 @@
 
     #menu_link_content {
         width: 40%;
+        height: 80%;
         /* border: 1px solid; */
     }
 
     .link_row {
-        flex:0.25;
+        flex: 0.25;
         flex-direction: column;
-    }
-
-    .menu_link {
-        margin-bottom: 20px;
+        justify-content: space-around;
     }
 
     .link_sub {
@@ -393,7 +391,7 @@
     }
 
     .link_sub {
-        font-size: 16px;
+        font-size: 15px;
     }
 
     #menu_sns_content {

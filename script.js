@@ -30,7 +30,7 @@ $(function () {
 $(window).scroll(function () {
     if ($(this).scrollTop() > 500) {
         $('#bar_bg').fadeIn(500);
-        $('#bar_bg').css('opacity', '1');
+        $('#bar_bg').css('opacity', '0.5');
     } else {
         $('#bar_bg').fadeOut();
     }
