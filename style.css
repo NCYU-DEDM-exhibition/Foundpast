@@ -1092,6 +1092,7 @@ form input {
     height: 20px;
     background-color: #ffffff;
     clip-path: polygon(0 90%, 93% 90%, 86% 65%, 90% 65%, 100% 100%, 0 100%);
+    -webkit-clip-path: polygon(0 90%, 93% 90%, 86% 65%, 90% 65%, 100% 100%, 0 100%);
 }
 
 .btn_arrow.ba1 {
